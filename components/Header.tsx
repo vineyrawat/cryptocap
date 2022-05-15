@@ -39,8 +39,7 @@ function Header(): JSX.Element {
               <div className={styles.badge}></div>
             </div>
           </div>
-          <Button>Login</Button>
-          <Button variant="outlined">Sign Up</Button>
+          <Button>Login With Metamamsk</Button>
         </nav>
         <Button className="md:hidden" variant="outlined">
           <MdMenu onClick={() => setHidden(!hidden)} />
