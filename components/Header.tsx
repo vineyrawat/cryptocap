@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Button from './Button'
 import { MdMenu } from 'react-icons/md'
+import { ConnectButton } from 'web3uikit'
 
 const styles = {
   header: 'flex items-center bg-[#17171A] h-20 w-full  text-white',
@@ -39,7 +40,7 @@ function Header(): JSX.Element {
               <div className={styles.badge}></div>
             </div>
           </div>
-          <Button>Login With Metamamsk</Button>
+        <ConnectButton />
         </nav>
         <Button className="md:hidden" variant="outlined">
           <MdMenu onClick={() => setHidden(!hidden)} />
