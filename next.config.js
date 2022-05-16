@@ -2,7 +2,7 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ['global-uploads.webflow.com'],
+    domains: ['global-uploads.webflow.com', 's2.coinmarketcap.com'],
   },
   env: {
     MORALIS_SERVER_URL: process.env.MORALIS_SERVER_URL,
